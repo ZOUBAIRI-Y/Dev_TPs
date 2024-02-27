@@ -1,0 +1,43 @@
+.totalCarts {
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cartItemActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+.QuantityInput {
+    width: 70px;
+    margin-right: 5px;
+    height: 30px;
+    
+}
+.deleteButton {
+    height: 30px;
+    
+}
+.checkIcon, .unlockIcn{
+    fill: rgb(150, 150, 150);
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.checkIcon:hover {
+    fill: aqua;
+    width: 20px;
+    height: 20px;
+    
+}
+.unlockIcn :hover {
+    fill: aqua;
+    width: 20px;
+    height: 20px;
+    
+}
